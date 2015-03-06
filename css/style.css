@@ -108,20 +108,25 @@ img {
 /* <<<<<<<< SECOND ATTEMPT */
 .nav_bar {
 	/* layout */
+	width: 100%;
 	background-color: #FFFFFF;
 	/* typography */
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-.container {
+.nav_bar .container {
 	/* layout */
-	width: 58rem;
-	height: 4.5rem;
+	max-width: 60%;
+	min-width: 37.5rem;
+	/* QUESTION: Original webpage min-width the same but behave diff in smaller width */
+	height: 4.375rem;
 	margin: 0 auto;
+	padding: 0 0.938rem;
+	box-sizing: border-box;
 }
 	#karma_logo {
 		/* layout */
-		width: 1.8rem;
+		width: 1.75rem;
 		margin-top: 0.8rem;
 		/* QUESTION: why don't we approach this like with the about me page: padding: 6em 0;? */
 	}
