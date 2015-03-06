@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -62,8 +63,8 @@ nav {
 }
 img {
 	border: 1px solid Red;
-}*/
-
+}
+*/
 
 /* <<<<<<<< FIRST ATTEMPT */
 /*.nav_bar {
@@ -107,16 +108,15 @@ img {
 
 /* <<<<<<<< SECOND ATTEMPT */
 body {
-	box-sizing: border-box;
+		/* typography */
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 .nav_bar {
 	/* layout */
 	width: 100%;
 	background-color: #FFFFFF;
 	position: fixed;
-	/* typography */
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
 }
 .nav_bar .container {
 	/* layout */
@@ -168,4 +168,36 @@ body {
 	background: url(http://i784.photobucket.com/albums/yy126/vleong2332/Web%20Images/large-wide-sitting-with-laptop.jpg?t=1425573825) #000000;
 	background-size: cover;
 	background-position: center;
+	color: #FFFFFF;
+	padding-top: 17.5rem;
+	text-align: center;
+}
+.container {
+	/* layout */
+	max-width: 60%;
+	min-width: 37.5rem;
+	margin: 0 auto;
+}
+.title {
+	font-size: 3.125rem;
+	font-weight: 300;
+}
+.subtitle {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+	font-weight: 300;
+}
+.main_button {
+	margin: 1.65rem auto 0;
+	padding: 1.25rem;
+	width: 9.5rem;
+	background-color: #F15A29;
+	transition: background-color 0.5s ease;
+	cursor: pointer;
+	font-size: 1.15rem;
+	font-weight: 400;
+	border-radius: 0.25rem;
+}
+.main_button:hover {
+	background-color: #D9400E;
 }
