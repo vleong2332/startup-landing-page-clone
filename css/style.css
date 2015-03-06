@@ -167,15 +167,18 @@ body {
 	/* layout */
 	height: 45.938rem;
 	padding-top: 17.5rem;
+	/* QUESTION: did padding-top to place introduction, unlike overflow:auto in the lesson. */
+	/*           removing this will mess up the page. Find out why. */
 	/* image */
 	background: url(http://i784.photobucket.com/albums/yy126/vleong2332/Web%20Images/large-wide-sitting-with-laptop.jpg?t=1425573825) #000000;
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	/* typography */
 	color: #FFFFFF;
 	text-align: center;
 }
-	.container {
+	.jumbotron .container {
 		/* layout */
 		max-width: 60%;
 		min-width: 37.5rem;
@@ -193,21 +196,25 @@ body {
 			font-size: 1.563rem;
 			font-weight: 300;
 		}
-		.main_button {
+		.learn_more {
+		/* QUESTION: Lesson wants this to be .big_button. Why?*/
 			/* layout */
 			margin: 1.65rem auto 0;
 			padding: 1.25rem;
-			width: 9.5rem;
+			width: 9.6rem;
 			background-color: #F15A29;
+			border: 1px;
+			border-color: #F15A29;
 			border-radius: 0.25rem;
 			/* effects */
 			transition: background-color 0.5s ease;
 			cursor: pointer;
 			/* typography */
+			color: #FFFFFF;
 			font-size: 1.15rem;
 			font-weight: 400;
 		}
-		.main_button:hover {
+		.learn_more:hover {
 			/* layout */
 			background-color: #D9400E;
 		}
