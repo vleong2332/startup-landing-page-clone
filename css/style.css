@@ -209,3 +209,22 @@ body {
 		/* typography */
 		font-size: 1.563rem;
 	}
+footer > .container {
+	/* layout */
+	padding: 1.5em 0 9.8em;
+	border-top: 1px solid #DDDDDD;
+	/* typography */
+	text-align: center;
+}
+	.social_icons > li {
+		/* layout */
+		display: inline-block;
+		margin: 1.7rem 1.35rem;
+	}
+	.copyright {
+		/* typography */
+		font-size: 0.9em;
+		font-weight: 300;
+		color: #838994;
+		letter-spacing: 0;
+	}
