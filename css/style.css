@@ -52,10 +52,10 @@ table {
 
 
 /* DESIGN HELP */
-body {
+/*body {
 	background-color: LightGray;
 }
-/*div {
+div {
 	border: 1px dashed Chocolate;
 }
 nav {
@@ -65,48 +65,6 @@ img {
 	border: 1px solid Red;
 }*/
 
-
-/* <<<<<<<< FIRST ATTEMPT */
-/*.nav_bar {
-	width: 100%;
-	background-color: #FFFFFF;
-	padding: 0.85em 0;
-	font-family: 'Roboto', sans-serif;
-}
-.container {
-	max-width: 60em;
-	min-width: 32em;
-	margin: auto;
-	padding: 0;
-}
-#karma_logo {
-	width: 2.5em;
-	height: 2.5em;
-	margin: 0;
-}
-.nav_menu {
-	float: right;
-	margin-top: 0.9em;
-}
-.nav_menu > li {
-	display: inline-block;
-	padding-left: 1.5em;
-}
-.nav_menu > li > a {
-	text-decoration: none;
-	font-size: 1.05em;
-	font-weight: 400;
-	color: #8E8E8E;
-}
-.nav_menu > li > a:hover {
-	color: #2F2F2F;
-}
-.nav_menu > li > a > span {
-	color: #2f2f2f;
-	font-weight: 500;
-}*/
-
-/* <<<<<<<< SECOND ATTEMPT */
 body {
 		/* typography */
 	font-family: 'Roboto', sans-serif;
@@ -114,9 +72,11 @@ body {
 }
 .nav_bar {
 	/* layout */
-	width: 100%;
 	background-color: #FFFFFF;
 	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #DDDDDD;
 }
 	.nav_bar .container {
 		/* layout */
@@ -140,7 +100,7 @@ body {
 		/* typography */
 		font-size: 1.05rem;
 		font-weight: 400;
-		letter-spacing: 0.03rem;
+		/*letter-spacing: 0.02rem;*/
 	}
 		.nav_menu > li {
 			/* layout */
@@ -172,7 +132,7 @@ body {
 	/* image */
 	background: url(../img/large-wide-sitting-with-laptop.jpg) #000000;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom center;
 	background-repeat: no-repeat;
 	/* typography */
 	color: #FFFFFF;
@@ -201,7 +161,7 @@ body {
 			/* layout */
 			display: inline-block;
 			margin: 1.65rem auto 0;
-			padding: 1.25rem;
+			padding: 1.2rem;
 			width: 9.6rem;
 			background-color: #F15A29;
 			border: 1px;
@@ -220,31 +180,32 @@ body {
 			background-color: #D9400E;
 		}
 .main_content {
-	background-color: #FFFFFF;
-	text-align: center;
+	/* layout */
 	padding: 7.875em 0;
-	overflow: hidden;
+	background-color: #FFFFFF;
+	/* typography */
+	text-align: center;
+	overflow: auto;
 }
-	.main_content .container {
-		box-sizing: border-box;
-	}
 	.main_content .container > h2 {
+		/* layout */
+		margin-bottom: 3.125rem;
+		/* typography */
 		font-size: 2.75rem;
 		font-weight: 300;
-		margin-bottom: 3.125rem;
 	}
-
 	.main_content .main_icons > li {
+		/* layout */
 		display: inline-block;
-		padding: 0;
-		margin: 0;
-		text-align: center;
-		width: 33%;
-	}
-	.main_icons > li > img {
-		width: 127px;
+		width: 33.3333333%;
+		margin: -2px;
+		/* TIPS: negative margin to fight the miniscule gap between lists */
+		float: left;
+		/* TIPS: without float, small window width will make the list staggered */
 	}
 	.main_content .container > ul > li > h3 {
-		font-size: 1.563rem;
+		/* layout */
 		margin-top: 2.5rem;
+		/* typography */
+		font-size: 1.563rem;
 	}
