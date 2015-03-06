@@ -113,6 +113,7 @@ body {
 	/* layout */
 	width: 100%;
 	background-color: #FFFFFF;
+	position: fixed;
 	/* typography */
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -162,3 +163,9 @@ body {
 		color: #4C5058;
 		font-weight: 600;
 	}
+.jumbotron {
+	height: 45.938rem;
+	background: url(http://i784.photobucket.com/albums/yy126/vleong2332/Web%20Images/large-wide-sitting-with-laptop.jpg?t=1425573825) #000000;
+	background-size: cover;
+	background-position: center;
+}
