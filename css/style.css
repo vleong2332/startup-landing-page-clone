@@ -118,86 +118,96 @@ body {
 	background-color: #FFFFFF;
 	position: fixed;
 }
-.nav_bar .container {
-	/* layout */
-	max-width: 60%;
-	min-width: 37.5rem;
-	/* QUESTION: Original webpage min-width the same but behave diff in smaller width */
-	height: 4.375rem;
-	margin: 0 auto;
-	padding: 0 0.938rem;
-}
+	.nav_bar .container {
+		/* layout */
+		max-width: 60%;
+		min-width: 37.5rem;
+		/* QUESTION: Original webpage min-width the same but behave diff in smaller width */
+		height: 4.375rem;
+		margin: 0 auto;
+		padding: 0 0.938rem;
+	}
 	#karma_logo {
 		/* layout */
 		width: 1.75rem;
 		margin-top: 0.8rem;
 		/* QUESTION: why don't we approach this like with the about me page: padding: 6em 0;? */
 	}
-.nav_menu {
-	/* layout */
-	float: right;
-	margin-top: 1.7rem;
-	/* typography */
-	font-size: 1.05rem;
-	font-weight: 400;
-	letter-spacing: 0.03rem;
-}
-	.nav_menu > li {
+	.nav_menu {
 		/* layout */
-		display: inline-block;
-		padding-left: 1.45rem;
-	}
-	.nav_menu > li > a {
+		float: right;
+		margin-top: 1.7rem;
 		/* typography */
-		text-decoration: none;
-		color: #838994;
-		transition: color 0.5s ease;
+		font-size: 1.05rem;
+		font-weight: 400;
+		letter-spacing: 0.03rem;
 	}
-	.nav_menu > li > a:hover {
-		/* typography */
-		color: #4C5058;
+		.nav_menu > li {
+			/* layout */
+			display: inline-block;
+			padding-left: 1.45rem;
+		}
+		.nav_menu > li > a {
+			/* typography */
+			text-decoration: none;
+			color: #838994;
+			transition: color 0.5s ease;
+		}
+		.nav_menu > li > a:hover {
+			/* typography */
+			color: #4C5058;
 
-	}
-	.nav_menu .active > a {
-		/* typography */
-		color: #4C5058;
-		font-weight: 600;
-	}
+		}
+		.nav_menu .active > a {
+			/* typography */
+			color: #4C5058;
+			font-weight: 600;
+		}
 .jumbotron {
+	/* layout */
 	height: 45.938rem;
+	padding-top: 17.5rem;
+	/* image */
 	background: url(http://i784.photobucket.com/albums/yy126/vleong2332/Web%20Images/large-wide-sitting-with-laptop.jpg?t=1425573825) #000000;
 	background-size: cover;
 	background-position: center;
+	/* typography */
 	color: #FFFFFF;
-	padding-top: 17.5rem;
 	text-align: center;
 }
-.container {
-	/* layout */
-	max-width: 60%;
-	min-width: 37.5rem;
-	margin: 0 auto;
-}
-.title {
-	font-size: 3.125rem;
-	font-weight: 300;
-}
-.subtitle {
-	font-size: 1.563rem;
-	margin-top: 1.25rem;
-	font-weight: 300;
-}
-.main_button {
-	margin: 1.65rem auto 0;
-	padding: 1.25rem;
-	width: 9.5rem;
-	background-color: #F15A29;
-	transition: background-color 0.5s ease;
-	cursor: pointer;
-	font-size: 1.15rem;
-	font-weight: 400;
-	border-radius: 0.25rem;
-}
-.main_button:hover {
-	background-color: #D9400E;
-}
+	.container {
+		/* layout */
+		max-width: 60%;
+		min-width: 37.5rem;
+		margin: 0 auto;
+	}
+		.title {
+			/* typography */
+			font-size: 3.125rem;
+			font-weight: 300;
+		}
+		.subtitle {
+			/* layout */
+			margin-top: 1.25rem;
+			/* typography */
+			font-size: 1.563rem;
+			font-weight: 300;
+		}
+		.main_button {
+			/* layout */
+			margin: 1.65rem auto 0;
+			padding: 1.25rem;
+			width: 9.5rem;
+			background-color: #F15A29;
+			border-radius: 0.25rem;
+			/* effects */
+			transition: background-color 0.5s ease;
+			cursor: pointer;
+			/* typography */
+			font-size: 1.15rem;
+			font-weight: 400;
+		}
+		.main_button:hover {
+			/* layout */
+			background-color: #D9400E;
+		}
