@@ -199,6 +199,7 @@ body {
 		.learn_more {
 		/* QUESTION: Lesson wants this to be .big_button. Why?*/
 			/* layout */
+			display: inline-block;
 			margin: 1.65rem auto 0;
 			padding: 1.25rem;
 			width: 9.6rem;
