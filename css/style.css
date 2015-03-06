@@ -106,6 +106,9 @@ img {
 }*/
 
 /* <<<<<<<< SECOND ATTEMPT */
+body {
+	box-sizing: border-box;
+}
 .nav_bar {
 	/* layout */
 	width: 100%;
@@ -122,7 +125,6 @@ img {
 	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0 0.938rem;
-	box-sizing: border-box;
 }
 	#karma_logo {
 		/* layout */
@@ -148,13 +150,15 @@ img {
 		/* typography */
 		text-decoration: none;
 		color: #838994;
+		transition: color 0.5s ease;
 	}
 	.nav_menu > li > a:hover {
 		/* typography */
-		color: #2F2F2F;
+		color: #4C5058;
+
 	}
 	.nav_menu .active > a {
 		/* typography */
-		color: #2F2F2F;
-		font-weight: 500;
+		color: #4C5058;
+		font-weight: 600;
 	}
