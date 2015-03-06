@@ -170,7 +170,7 @@ body {
 	/* QUESTION: did padding-top to place introduction, unlike overflow:auto in the lesson. */
 	/*           removing this will mess up the page. Find out why. */
 	/* image */
-	background: url(http://i784.photobucket.com/albums/yy126/vleong2332/Web%20Images/large-wide-sitting-with-laptop.jpg?t=1425573825) #000000;
+	background: url(../img/large-wide-sitting-with-laptop.jpg) #000000;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
