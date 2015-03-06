@@ -219,8 +219,25 @@ footer > .container {
 	.social_icons > li {
 		/* layout */
 		display: inline-block;
-		margin: 1.7rem 1.35rem;
+		margin: 1.7rem 0.6rem;
 	}
+		.social_icons > li > i {
+			border: 1px solid #DDDDDD;
+			border-radius: 100%;
+			padding: 0.5rem;
+			/* QUESTION: How do you turn the icons to color? */
+		}
+		.social_icons > li > i.fa-twitter {
+			color: rgb(86, 172, 238);
+		}
+		.social_icons > li > i.fa-facebook {
+			color: rgb(76, 102, 164);
+			padding-left: 0.7rem;
+			padding-right: 0.7rem;
+		}
+		.social_icons > li > i.fa-instagram {
+			color: rgb(63, 114, 155);
+		}
 	.copyright {
 		/* typography */
 		font-size: 0.9em;
