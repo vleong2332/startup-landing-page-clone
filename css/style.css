@@ -51,7 +51,7 @@ table {
 /*END OF RESET STYLESHEET*/
 
 
-/* design help */
+/* DESIGN HELP */
 body {
 	background-color: LightGray;
 }
@@ -63,8 +63,8 @@ nav {
 }
 img {
 	border: 1px solid Red;
-}
-*/
+}*/
+
 
 /* <<<<<<<< FIRST ATTEMPT */
 /*.nav_bar {
@@ -178,7 +178,7 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 }
-	.jumbotron .container {
+	.container {
 		/* layout */
 		max-width: 60%;
 		min-width: 37.5rem;
@@ -219,3 +219,32 @@ body {
 			/* layout */
 			background-color: #D9400E;
 		}
+.main_content {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 7.875em 0;
+	overflow: hidden;
+}
+	.main_content .container {
+		box-sizing: border-box;
+	}
+	.main_content .container > h2 {
+		font-size: 2.75rem;
+		font-weight: 300;
+		margin-bottom: 3.125rem;
+	}
+
+	.main_content .main_icons > li {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 33%;
+	}
+	.main_icons > li > img {
+		width: 127px;
+	}
+	.main_content .container > ul > li > h3 {
+		font-size: 1.563rem;
+		margin-top: 2.5rem;
+	}
