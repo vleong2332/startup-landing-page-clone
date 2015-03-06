@@ -119,12 +119,12 @@ img {
 	height: 4.5rem;
 	margin: 0 auto;
 }
-#karma_logo {
-	/* layout */
-	width: 1.8rem;
-	margin-top: 0.8rem;
-	/* QUESTION: why don't we approach this like with the about me page: padding: 6em 0;? */
-}
+	#karma_logo {
+		/* layout */
+		width: 1.8rem;
+		margin-top: 0.8rem;
+		/* QUESTION: why don't we approach this like with the about me page: padding: 6em 0;? */
+	}
 .nav_menu {
 	/* layout */
 	float: right;
@@ -134,22 +134,22 @@ img {
 	font-weight: 400;
 	letter-spacing: 0.03rem;
 }
-.nav_menu > li {
-	/* layout */
-	display: inline-block;
-	padding-left: 1.45rem;
-}
-.nav_menu > li > a {
-	/* typography */
-	text-decoration: none;
-	color: #838994;
-}
-.nav_menu > li > a:hover {
-	/* typography */
-	color: #2F2F2F;
-}
-.nav_bar .nav_menu .active > a {
-	/* typography */
-	color: #2F2F2F;
-	font-weight: 500;
-}
+	.nav_menu > li {
+		/* layout */
+		display: inline-block;
+		padding-left: 1.45rem;
+	}
+	.nav_menu > li > a {
+		/* typography */
+		text-decoration: none;
+		color: #838994;
+	}
+	.nav_menu > li > a:hover {
+		/* typography */
+		color: #2F2F2F;
+	}
+	.nav_menu .active > a {
+		/* typography */
+		color: #2F2F2F;
+		font-weight: 500;
+	}
