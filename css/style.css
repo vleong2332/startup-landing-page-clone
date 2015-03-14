@@ -128,7 +128,7 @@ body {
 	height: 45.938rem;
 	padding-top: 17.5rem;
 	/* QUESTION: did padding-top to place introduction, unlike overflow:auto in the lesson. */
-	/*           removing this will mess up the page. Find out why. */
+	/*           removing this will mess up the page. Why? */
 	/* image */
 	background: url(../img/large-wide-sitting-with-laptop.jpg) #000000;
 	background-size: cover;
